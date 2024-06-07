@@ -1,0 +1,7 @@
+﻿  Final_Project.cpp
+C:\Users\COLE.LAMB15\source\repos\Final_Project\Final_Project\Final_Project.cpp(26,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\COLE.LAMB15\source\repos\Final_Project\Final_Project\Final_Project.cpp(131,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\COLE.LAMB15\source\repos\Final_Project\Final_Project\Final_Project.cpp(131,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Final_Project.vcxproj -> C:\Users\COLE.LAMB15\source\repos\Final_Project\x64\Debug\Final_Project.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
