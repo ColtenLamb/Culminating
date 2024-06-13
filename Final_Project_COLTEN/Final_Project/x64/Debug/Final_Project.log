@@ -1,0 +1,15 @@
+﻿  Final_Project.cpp
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(25,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(26,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(35,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(38,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(149,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(157,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(255,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(316,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(316,24): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(317,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(317,25): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  Final_Project.vcxproj -> C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project\x64\Debug\Final_Project.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
