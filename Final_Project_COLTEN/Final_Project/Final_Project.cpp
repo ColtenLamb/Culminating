@@ -36,7 +36,7 @@ float playerSpeed = 0.0005;
 
 // Player Acceleration Variables
 float playerAcceleration = 0.00001;
-float speedLimit = 0.75;
+float speedLimit = 0.5;
 
 // Projectile Variables
 float projectileSpeed = 1.5;
@@ -63,21 +63,20 @@ float particleOpacity = 255;
 float particleSpeed = 0.5;
 float particleRadius = 2;
 Color particleColor = { 255, 161, 0, 255 };
-int particleTime = 420;
+int particleTime = 60;
 
 struct Particle
 {
 	Vector2 position;
 	Vector2 direction;
+	float opacity;
+	float lifeTime;
 };
-vector<Particle> particle;
+vector<Particle> particles;
 
 //----------------------------------------------------------------------
 
-//-------------------------- Put UI Function Here ----------------------
 
-
-//----------------------------------------------------------------------
 
 // ----------------------------- Functions -----------------------------
 
@@ -106,6 +105,7 @@ void movePlayer(Vector2& position, float& rotation)
 	// Move the player towards the mouse
 	if (IsKeyDown(KEY_SPACE))
 	{
+		frameCounter2++;
 		// Accelerate the player
 		playerSpeed += playerAcceleration;
 
@@ -118,6 +118,14 @@ void movePlayer(Vector2& position, float& rotation)
 		// Move the player
 		position.x += cos(angle) * playerSpeed;
 		position.y += sin(angle) * playerSpeed;
+
+		// Create particles at a slower rate
+		if (frameCounter2 % particleTime == 0)
+		{
+			particles.push_back({ position, { -cos(angle) * particleSpeed, -sin(angle) * particleSpeed }, particleOpacity, 255 });
+		}
+		
+
 	}
 	else
 	{
@@ -222,7 +230,7 @@ void gameOver()
 	if (lives <= 0)
 	{
 		// Draw red overlay
-		DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), { 255, 0, 0, 255 });
+		DrawRectangle(0, 0, GetScreenWidth(), GetScreenHeight(), { 125, 0, 0, 255 });
 
 		// Draw Game Over Text in the center of the screen
 		DrawText("Game Over", GetScreenWidth() / 2 - MeasureText("Game Over", 40) / 2, GetScreenHeight() / 2 - 40, 40, WHITE);
@@ -232,6 +240,34 @@ void gameOver()
 
 	}
 }
+
+// Function to update and draw particles
+void updateParticles()
+{
+	for (auto it = particles.begin(); it != particles.end();)
+	{
+		// Update particle position
+		it->position.x += it->direction.x;
+		it->position.y += it->direction.y;
+
+		// Fade out the particle
+		it->opacity -= 255.0f / it->lifeTime;
+
+		// Draw the particle
+		DrawCircleV(it->position, particleRadius, Fade(particleColor, it->opacity / 255.0f));
+
+		// Check if the particle is no longer visible
+		if (it->opacity <= 0)
+		{
+			it = particles.erase(it);
+		}
+		else
+		{
+			++it;
+		}
+	}
+}
+
 
 
 
@@ -360,8 +396,9 @@ int main()
 			// Collision Check with cursor
 			cursorCollisionCheck();
 
-
-
+			// Update and draw particles
+			updateParticles();
+			
 			// ---------------------------------- Temp Functions ----------------------------------
 
 				// Draw the object
