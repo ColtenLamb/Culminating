@@ -1,0 +1,17 @@
+﻿  Final_Project.cpp
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(26,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(27,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(38,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(39,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(149,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(157,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(241,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(292,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(293,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(363,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(363,24): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(364,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\Final_Project\Final_Project.cpp(364,25): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  Final_Project.vcxproj -> C:\Users\tyson.scobie24\Desktop\Culminating-dev\Final_Project\x64\Debug\Final_Project.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
