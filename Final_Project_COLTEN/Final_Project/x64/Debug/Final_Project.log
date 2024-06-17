@@ -1,0 +1,15 @@
+﻿  Final_Project.cpp
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(32,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(33,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(42,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(45,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(76,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(167,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(175,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(391,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(391,24): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(392,27): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\Final_Project\Final_Project.cpp(392,25): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  Final_Project.vcxproj -> C:\Users\COLE.LAMB15\Downloads\Culminating-dev\Final_Project_COLTEN\x64\Debug\Final_Project.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
